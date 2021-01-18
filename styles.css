@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+}
+
+.hero-image {
+    background-image: url(images/rooster-1.webp) ;
+}
