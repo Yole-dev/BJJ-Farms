@@ -4,10 +4,39 @@
 
 }
 
-body {
-    
+.flex-row {
+    flex: 1;
 }
 
 .hero-image {
-    background-image: url(images/rooster-1.webp) ;
+    background-image: url(images/rooster-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    /* flex: 9; */
+}
+
+
+
+.intro h1 {
+    text-transform: capitalize;
+    position: relative;
+}
+
+.intro h1::after {
+    position: absolute;
+    content: " ";
+    width: 6rem;
+    height: 3px;
+    background-color: orangered;
+    display: block;
+    right: 20rem;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.intro a{
+    text-decoration: none;
 }
