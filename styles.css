@@ -6,7 +6,7 @@
 
 
 .hero-image {
-    background-image: url(images/rooster-1.webp);
+    background-image: url(images/cock.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,28 +15,27 @@
 }
 
 
-
 .intro {
     width: 100%;
 }
 
-.intro h1 {
+ h1 {
     text-transform: capitalize;
     position: relative;
 }
 
-.intro h1::after {
+ h1::after {
     position: absolute;
     content: " ";
     width: 6rem;
     height: 3px;
-    background-color: orangered;
+    background-color: rgb(208, 86, 86);
     display: block;
-    right: 15.4rem;
+    right: 15.3rem;
     margin-top: 0.5rem;
 }
 
-.intro p {
+ p {
     padding-top: 1rem;
 }
 
@@ -62,9 +61,18 @@
 .chicken {
     margin-bottom: 1.5rem;
     background-image: url(images/pexels-photo-2134246.jpeg);
-    width: 100%;
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-poultry {
+    background-image: url(images/our_poultry.jpeg);
+    width: 550px;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
-
