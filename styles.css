@@ -4,6 +4,13 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
 
 .hero-image {
     background-image: url(images/cock.webp);
@@ -39,6 +46,10 @@
     padding-top: 1rem;
 }
 
+li i a:hover {
+    color:rgb(208, 86, 86);
+}
+
 .intro a{
     text-decoration: none;
     display: block;
@@ -60,7 +71,7 @@
 
 .chicken {
     margin-bottom: 1.5rem;
-    background-image: url(images/pexels-photo-2134246.jpeg);
+    background-image: url(images/motherhen.jpeg);
     width: 500px;
     height: 300px;
     background-position: center;
@@ -76,3 +87,58 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.gallery-1 {
+    background-image: url(images/chick.jpg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-2 {
+    background-image: url(images/cocks.jpeg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-3 {
+    background-image: url(images/mother-hen.jpeg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-4 {
+    background-image: url(images/layers.jpeg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-5 {
+    background-image: url(images/mothercock.jpeg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-6 {
+    background-image: url(images/cockmeeting.jpeg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
