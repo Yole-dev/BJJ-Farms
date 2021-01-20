@@ -10,13 +10,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1000px;
-    height: 640px;
+    width: 100%;
+    height: 400px;
 }
 
 
 
-
+.intro {
+    width: 100%;
+}
 
 .intro h1 {
     text-transform: capitalize;
@@ -30,12 +32,12 @@
     height: 3px;
     background-color: orangered;
     display: block;
-    right: 18rem;
-    margin-top: 0.3rem;
+    right: 15.5rem;
+    margin-top: 0.5rem;
 }
 
 .intro p {
-    padding-top: 1rem
+    padding-top: 1rem;
 }
 
 .intro a{
