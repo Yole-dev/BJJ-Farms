@@ -11,32 +11,48 @@
 </head>
 
 <body class="bg-light p-1">
-    <header class="d-flex flex-column flex-md-row p-1 border-bottom border-danger ps-md-4 pe-md-4">
+    <header class="d-flex flex-column flex-md-row p-1 border-bottom border-danger ps-md-4 pe-md-4 ">
         <div class="hero-image position-relative border-bottom border-danger border-end-md border-danger-md">
-                <!-- nav bar goes here -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top fixed-md-side">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/cock.webp" alt="business logo" width="30" height="24" class="rounded-circle">
-                        </a>
-                        <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- nav bar goes here -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top fixed-md-side">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/cock.webp" alt="business logo" width="30" height="24" class="rounded-circle">
+                    </a>
+                    <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-md-flex justify-content-center" id="navbarNavAltMarkup">
 
-                                <ul class="navbar-nav mt-sm-2 ">
-                                <li><a class="nav-link btn-md btn-outline-light dropdown-item text-sm-end" aria-current="page" href="index.html">Home</a></li> 
-                                <li><a class="nav-link btn-md btn-outline-light ms-1 dropdown-item text-sm-end" href="gallery.html">Gallery</a></li>
-                                <li><a class="nav-link btn-md btn-outline-light ms-1 dropdown-item text-sm-end" href="about.html">About</a></li>
-                                <li><a class="nav-link btn-md btn-outline-light ms-1 dropdown-item text-sm-end" href="services.html">Services</a></li>
-                                <li><a class="nav-link btn-md btn-outline-light ms-1 dropdown-item text-sm-end" href="contact.html" tabindex="-1" aria-disabled="true">Contacts</a></li>
-                                </ul>
-
-                        </div>
+                        <ul class="navbar-nav mt-sm-2">
+                            <li><a class="nav-link btn btn-outline-light dropdown-item text-center" aria-current="page"
+                                    href="index.html">Home</a></li>
+                            <li><a class="nav-link btn btn-outline-light ms-1 dropdown-item text-center "
+                                    href="gallery.html">Gallery</a></li>
+                            <li><a class="nav-link btn btn-outline-light ms-1 dropdown-item text-center"
+                                    href="about.html">About</a></li>
+                            <li><a class="nav-link btn btn-outline-light ms-1 dropdown-item text-center"
+                                    href="services.html">Services</a></li>
+                            <li><a class="nav-link btn btn-outline-light ms-1 dropdown-item text-center"
+                                    href="contact.html" tabindex="-1" aria-disabled="true">Contacts</a></li>
+                        </ul>
+                            <form class="d-flex align-items-center d-md-none mt-2">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
                     </div>
-                </nav>
+
+                    <div class="d-md-flex d-sm-none">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                </div>
+            </nav>
 
             <div
                 class="position-absolute top-100 start-50 translate-middle top-md-50 start-md-100 translate-md-middle ">
@@ -45,7 +61,7 @@
         </div>
 
         <div class="intro p-2 text-center bg-white pt-5">
-            <h1>welcome to our poultry farm</h1>
+            <h1>welcome to <span class="text-uppercase">bjj</span> farm</h1>
             <p class="text-muted">
                 Our Nigerian-owned and family-run business supplies to some of Nigeria's top food traders:
                 from five star hotels to quality restaurants, cafes and bakeries all the way through to
