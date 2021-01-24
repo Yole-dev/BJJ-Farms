@@ -189,9 +189,9 @@ li i a:hover {
     height: 600px
 }
 
-@media screen and (max-width:568px) {
+@media screen and (max-width:576px) {
     .carousel-item {
-        width: 300px;
+        width: 400px;
         height: 300px;
     }
     
@@ -200,7 +200,7 @@ li i a:hover {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 300px;
+        width: 400px;
         height: 300px;
     }
     
@@ -209,7 +209,7 @@ li i a:hover {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 300px;
+        width: 400px;
         height: 300px
     }
     
@@ -218,7 +218,7 @@ li i a:hover {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 300px;
+        width: 400px;
         height: 300px
     }
     
@@ -227,7 +227,7 @@ li i a:hover {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 300px;
+        width: 400px;
         height: 300px
     }
     
@@ -236,8 +236,61 @@ li i a:hover {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 300px;
+        width: 400px;
         height: 300px
     }
     
 }
+
+/* @media screen and (max-width:768px) {
+    .carousel-item {
+        width: 550px;
+        height: 400px;
+    }
+    
+    .carousel-1 {
+        background-image: url(images/cocks.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 550px;
+        height: 400px;
+    }
+    
+    .carousel-2 {
+        background-image: url(images/chick2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 550px;
+        height: 400px
+    }
+    
+    .carousel-3 {
+        background-image: url(images/poultry.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 550px;
+        height: 400px
+    }
+    
+    .carousel-4 {
+        background-image: url(images/animal-agriculture-farm-chicken.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 550px;
+        height: 400px
+    }
+    
+    .carousel-5 {
+        background-image: url(images/fathercock.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 550px;
+        height: 400px
+    }
+    
+} */
