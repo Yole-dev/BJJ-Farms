@@ -31,16 +31,7 @@ li {
     position: relative;
 }
 
- h1::after {
-    position: absolute;
-    content: " ";
-    width: 6rem;
-    height: 3px;
-    background-color: rgb(208, 86, 86);
-    display: block;
-    right: 15.3rem;
-    margin-top: 0.5rem;
-}
+
 
  p {
     padding-top: 1rem;
