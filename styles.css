@@ -192,7 +192,7 @@ li i a:hover {
 
 .product-card {
     height: 300px;
-    width: 300px;
+    width: ;
 }
 
 @media screen and (max-width:576px) {
